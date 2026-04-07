@@ -225,23 +225,9 @@ export function Layout() {
             <div>
               <h4 className="font-heading font-bold text-lg mb-6">Contact Us</h4>
               <ul className="space-y-4">
-                <li className="text-gray-400 text-sm">
-                  <div className="w-full h-32 rounded-lg overflow-hidden mb-2 shadow-md">
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.631853466106!2d73.17646697523908!3d22.30197797969399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc8677e5e1e47%3A0x6d9e0f6c2f5d9d7!2sAlkapuri%2C%20Vadodara%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1712485600000!5m2!1sen!2sin"
-                      width="100%"
-                      height="100%"
-                      style={{ border: 0 }}
-                      allowFullScreen
-                      loading="lazy"
-                      referrerPolicy="no-referrer-when-downgrade"
-                      title="Academy Location"
-                    ></iframe>
-                  </div>
-                  <span className="flex items-center gap-2">
-                    <MapPin size={16} className="text-court-green shrink-0" />
-                    123 Sports Complex Road, Alkapuri, Vadodara
-                  </span>
+                <li className="flex items-start gap-3 text-gray-400 text-sm">
+                  <MapPin size={18} className="text-court-green shrink-0 mt-0.5" />
+                  <span>123 Sports Complex Road, Alkapuri, Vadodara, Gujarat 390007</span>
                 </li>
                 <li className="flex items-center gap-3 text-gray-400 text-sm">
                   <Phone size={18} className="text-court-green shrink-0" />
